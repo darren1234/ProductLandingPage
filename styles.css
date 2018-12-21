@@ -1,9 +1,11 @@
 header {
+    top: 0;
     position: fixed;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    max-height: 100px;
+    align-items: flex-start;
+    height: 100px;
+    background-color: white;
 }
 
 .logo {
@@ -19,6 +21,9 @@ nav ul {
     flex-direction: row;
     width: 37vw;
     justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -30,7 +35,7 @@ nav ul {
 .product-criteria {
     display: flex;
     flex-direction: column;
-    position: re
+    padding-top: 100px;
 }
 
 h1 {

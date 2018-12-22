@@ -4,8 +4,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    height: 100px;
+    height: 195px;
     background-color: white;
+    background-image: url("drone2.jpg");
 }
 
 .logo {
@@ -19,23 +20,21 @@ header {
 nav ul {
     display: flex;
     flex-direction: row;
-    width: 37vw;
+    width: 38vw;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
 
 .spacer {
     display: block;
-    height: 120px;
+    height: 195px;
 }
 
-.product-criteria {
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
+.spacer2 {
+    display: block;
+    height: 20px;
 }
 
 h1 {
@@ -48,4 +47,10 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+#products {
+    display: flex;
+    flex-direction: row;
+}
+
 

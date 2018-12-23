@@ -48,9 +48,36 @@ h1 {
     margin-right: auto;
 }
 
-#products {
+#product-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
+#product {
+    width: 30%;
+    height: 620px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.product-top {
+    width: 100%;
+}
+
+#product-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.product-top img{
+    width: 100%;
+}
 

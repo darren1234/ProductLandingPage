@@ -4,9 +4,9 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    height: 195px;
+    background-size: 100% auto;
     background-color: white;
-    background-image: url("drone2.jpg");
+    background-image: url("drone2.jpg") ;
 }
 
 .logo {
@@ -27,6 +27,12 @@ nav ul {
     padding: 0;
 }
 
+.nav-link {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
 .spacer {
     display: block;
     height: 195px;
@@ -39,6 +45,34 @@ nav ul {
 
 h1 {
     text-align: center;
+}
+
+#product-criteria-nav {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+#product-section-nav {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+#video-section-nav {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+#customer-info-nav {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 .product-criteria {
@@ -57,7 +91,7 @@ h1 {
 
 #product {
     width: 30%;
-    height: 620px;
+    height: 640px;
     background-color: bisque;
     display: flex;
     flex-direction: column;
@@ -81,6 +115,24 @@ h1 {
 }
 .product-top img{
     width: 100%;
+}
+
+.product-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    font-weight: bold;
 }
 
 #video-section div {
@@ -109,4 +161,24 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 1500px) {
+    .logo img {
+        max-width: 20%;
+    }
+
+    #product-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #product {
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    
 }
